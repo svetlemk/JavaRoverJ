@@ -37,19 +37,15 @@ public class Main {
             System.out.println(iter);
 
         }
-
     }
-
     private static List<String> filterStartingWIthA(List<String> strs) {
         List<String> result = new ArrayList<>();
         for (String element : strs) {
             if (element.startsWith("a")) {
                 result.add(element);
             }
-
         }
         return result;
-
     }
 
 
